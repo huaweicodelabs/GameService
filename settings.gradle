@@ -1,1 +1,2 @@
-include ':TestApp'
+rootProject.name='GameCodeLabe5.0'
+include ':app'
