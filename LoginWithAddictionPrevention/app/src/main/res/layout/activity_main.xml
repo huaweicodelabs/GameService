@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/init_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:background="@color/btn_background"
+        android:gravity="center"
+        android:text="@string/init_text"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/button_size"/>
+    <TextView
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:background="@color/btn_background"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center"
+        android:text="@string/login_text"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/button_size" />
+    <TextView
+        android:id="@+id/player1_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:background="@color/btn_background"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/game_player"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/button_size" />
+</LinearLayout>

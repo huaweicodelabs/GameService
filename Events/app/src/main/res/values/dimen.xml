@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_size">18sp</dimen>
+    <dimen name="view_margin">40dp</dimen>
+    <dimen name="button_margin_right">30dp</dimen>
+    <dimen name="button_margin_left">120dp</dimen>
+    <dimen name="margin_top">15dp</dimen>
+    <dimen name="text_margin_left">20dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="margin_bottom">320dp</dimen>
+    <dimen name="btn_height">60dp</dimen>
+</resources>

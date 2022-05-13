@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GameCodelab_event</string>
+    <string name="login">Login</string>
+    <string name="show_event_list">ShowEventList</string>
+    <string name="get_eventByIds">GetEventByIds</string>
+    <string name="submit_event">SubmitEventById</string>
+</resources>

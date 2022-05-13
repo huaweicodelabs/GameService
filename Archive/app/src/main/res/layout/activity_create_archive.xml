@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="description："/>
+
+        <EditText
+            android:id="@+id/et_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv_des"
+            android:layout_toRightOf="@+id/tv_des"
+            android:hint="Please enter the description."
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_playedTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/et_playedTime"
+            android:text="playedTime："
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_playedTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_des"
+            android:layout_alignLeft="@+id/et_des"
+            android:layout_marginTop="20dp"
+            android:hint="Please enter the playedTime."
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/et_progress"
+            android:textSize="16sp"
+            android:text="progress："/>
+
+        <EditText
+            android:id="@+id/et_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_playedTime"
+            android:layout_alignLeft="@+id/et_des"
+            android:layout_marginTop="20dp"
+            android:hint="Please enter the progress."
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_isSupportCache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/rg_isCache"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:text="isCache："/>
+
+        <RadioGroup
+            android:id="@+id/rg_isCache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/et_des"
+            android:layout_below="@+id/et_progress"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rb_cache_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="YES"/>
+            <RadioButton
+                android:id="@+id/rb_cache_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="NO"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv_hasImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/rg_hasImage"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:text="hasImage："/>
+
+        <RadioGroup
+            android:id="@+id/rg_hasImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/et_des"
+            android:layout_below="@+id/rg_isCache"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rb_hasImage_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="YES"/>
+            <RadioButton
+                android:id="@+id/rb_hasImage_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="NO"/>
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_cover_pic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/rg_hasImage"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/cover_picture" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_cover_pic"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:text="submit"/>
+    </RelativeLayout>
+
+</ScrollView>

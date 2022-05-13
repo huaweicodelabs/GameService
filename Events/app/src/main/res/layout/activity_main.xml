@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:background="@color/btn_background"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/button_size" />
+
+    <TextView
+        android:id="@+id/get_eventList_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/btn_background"
+        android:gravity="center"
+        android:text="@string/show_event_list"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/button_size" />
+
+    <TextView
+        android:id="@+id/get_eventById_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/btn_background"
+        android:gravity="center"
+        android:text="@string/get_eventByIds"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/button_size" />
+
+    <TextView
+        android:id="@+id/submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/btn_background"
+        android:gravity="center"
+        android:text="@string/submit_event"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/button_size" />
+</LinearLayout>

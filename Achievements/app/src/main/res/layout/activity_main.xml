@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+    <Button
+        android:background="@drawable/btn_nor_down"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="gameLogin"
+        android:id="@+id/game_login"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_nor_down"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="showAchievementList"
+        android:id="@+id/show_achievement_list"/>
+
+
+
+</LinearLayout>
