@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@dimen/margin_top"
+    android:orientation="horizontal">
+        <Button
+            android:id="@+id/init_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_color"
+            android:gravity="center"
+            android:minWidth="60dp"
+            android:text="@string/init_text"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minWidth="60dp"
+            android:textAllCaps="false"
+            android:background="@drawable/button_color"
+            android:gravity="center"
+            android:text="@string/login_text"
+            />
+<!--        <TextView-->
+<!--            android:id="@+id/player1_btn"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:minWidth="60dp"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:background="@drawable/button_color"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginTop="@dimen/margin_top"-->
+<!--            android:text="@string/game_player"-->
+<!--             />-->
+        <Button
+            android:id="@+id/btn_ranking"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_color"
+            android:minWidth="60dp"
+            android:textAllCaps="false"
+            android:text="@string/title_activity_ranking" />
+</LinearLayout>

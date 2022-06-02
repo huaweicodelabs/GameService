@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GameDemo</string>
+    <string name="init_text">Init</string>
+    <string name="login_text">SignIn</string>
+    <string name="game_player">GetGamePlayer</string>
+    <string name="title_activity_ranking">Ranking</string>
+    <string name="rank_intent">Ranking intent</string>
+    <string name="rank_data">Ranking data</string>
+    <string name="rank_metadata">Ranking meta data</string>
+    <string name="ranking_get_all_ranking">Get all ranking Intent</string>
+    <string name="ranking_set_status">Set ranking swtich status</string>
+    <string name="ranking_get_status">Get ranking swtich status</string>
+</resources>
